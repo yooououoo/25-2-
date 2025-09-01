@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>호텔관광학과 2학기 개강총회</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 1.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease-in-out;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1e3a8a;
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            color: #4b5563;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .page-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1e3a8a;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .event-card {
+            background-color: #f7faff;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #dbeafe;
+        }
+        .event-card-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+        .image-container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e2e8f0;
+            border-radius: 1rem;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- 1. 오프닝 페이지 -->
+        <div class="section">
+            <h1 class="title">호텔관광학과 2학기 개강총회</h1>
+            <h2 class="subtitle">함께 만들어가는 2학기</h2>
+            <!-- 학생회 임원 사진이 제거되었습니다 -->
+        </div>
+
+        <!-- 2. 1학기 주요 행사 돌아보기 -->
+        <div class="section">
+            <h3 class="page-title">⭐ 1학기, 우리의 추억</h3>
+            <div class="space-y-4 text-center">
+                <p><strong>새내기 배움터 & MT</strong>: 잊지 못할 추억을 만들었던 첫 만남</p>
+                <p><strong>중간고사 간식 행사</strong>: 시험에 지친 학우들을 응원하기 위해</p>
+                <p><strong>스승의 날</strong>: 교수님께 감사한 마음을 전한 따뜻한 시간</p>
+                <p><strong>성년의 날</strong>: 어른이 된 20살 학우들을 축하하며</p>
+                <p class="mt-4 text-gray-500">사진으로 돌아보는 1학기, 함께여서 더욱 빛났습니다.</p>
+            </div>
+        </div>
+
+        <!-- 3. 1학기 학생회비 사용 내역 -->
+        <div class="section">
+            <h3 class="page-title">💰 투명한 학생회비 사용 보고</h3>
+            <p class="text-center mb-6 text-gray-600">1학기 동안 학생 여러분의 소중한 학생회비가 이렇게 사용되었습니다.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                <div class="event-card">
+                    <p class="font-bold text-lg">3월 학생회비 사용 내역</p>
+                    <p class="text-sm text-gray-500">개강총회, 신입생 환영회 등</p>
+                </div>
+                <div class="event-card">
+                    <p class="font-bold text-lg">4월 학생회비 사용 내역</p>
+                    <p class="text-sm text-gray-500">MT, 중간고사 간식 등</p>
+                </div>
+                <div class="event-card">
+                    <p class="font-bold text-lg">5월 학생회비 사용 내역</p>
+                    <p class="text-sm text-gray-500">스승의 날, 성년의 날 등</p>
+                </div>
+            </div>
+            <p class="mt-6 text-center text-gray-500">자세한 내역은 개강총회에서 공개됩니다.</p>
+        </div>
+
+        <!-- 4. 2학기 주요 행사 소개 -->
+        <div class="section">
+            <h3 class="page-title">🗓️ 2학기, 기대되는 행사들</h3>
+            <div class="space-y-4">
+                <div class="event-card">
+                    <h4 class="event-card-title">가을문화제</h4>
+                    <p class="text-sm text-gray-600">10월 21일(화)-10월 22일(수)</p>
+                </div>
+                <div class="event-card">
+                    <h4 class="event-card-title">한솔대동제</h4>
+                    <p class="text-sm text-gray-600">11월 17일(월)-11월 19일(수)</p>
+                </div>
+                <div class="event-card">
+                    <h4 class="event-card-title">축제 후 뒷풀이</h4>
+                    <p class="text-sm text-gray-600">축제 종료 후 진행 예정, 자세한 내용은 추후 공지</p>
+                </div>
+                <div class="event-card">
+                    <h4 class="event-card-title">중간고사 간식 행사</h4>
+                    <p class="text-sm text-gray-600">지친 학우들을 위한 응원, 시험 기간 중 진행 예정</p>
+                </div>
+                <div class="event-card">
+                    <h4 class="event-card-title">학술제</h4>
+                    <p class="text-sm text-gray-600">학과 전공 관련 지식 교류의 장</p>
+                </div>
+                <div class="event-card">
+                    <h4 class="event-card-title">종강총회 & 종강파티</h4>
+                    <p class="text-sm text-gray-600">2학기를 마무리하며 함께 즐기는 자리</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5. 2학기 축제 부스 도우미 모집 공지 -->
+        <div class="section text-center">
+            <h3 class="page-title">🎉 축제, 함께해요!</h3>
+            <p class="text-xl mb-4 text-gray-700">2025년도 건양대학교 축제에 함께할 학과 부스 도우미를 모집합니다.</p>
+            <div class="my-6">
+                <p class="font-bold text-lg">모집 분야: 학과부스</p>
+                <p class="text-sm text-gray-600">(예: 부스 운영, 홍보, 아이디어, 물품 준비 등)</p>
+            </div>
+            <div class="my-6">
+                <p class="font-bold text-lg">지원 기간: 2025년 11월 3일</p>
+            </div>
+            <div class="my-6">
+                <p class="font-bold text-lg">지원 방법:</p>
+                <p class="text-sm text-gray-600">학생회 공지글, 인스타그램 확인</p>
+            </div>
+        </div>
+
+        <!-- 6. 1학기 학생회 감사 관련 -->
+        <div class="section text-center">
+            <h3 class="page-title">💡 학생회에 바란다</h3>
+            <p class="text-lg text-gray-700">지난 1학기 학생회 활동에 대한 감사 관련 이야기를 드리겠습니다.</p>
+        </div>
+
+        <!-- 7. 마무리 -->
+        <div class="section text-center">
+            <h3 class="page-title">마지막으로...</h3>
+            <p class="text-lg text-gray-700">2학기에도 학생들의 편의와 즐거운 학과 생활을 위해 최선을 다하겠습니다.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
